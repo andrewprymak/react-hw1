@@ -3,20 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Header from './components/header/header';
-import Contactsearch from './components/search/contactsearch';
-import СontactList1 from './components/contactList/contactList1';
-import СontactList2 from './components/contactList/contactList2';
+import Сontactsearch from './components/search/contactsearch';
+import СontactList from './components/contactList/contactList';
 import Footer from './components/footer/footer';
+// import ContactItem from './components/item/item';
 
 const App = () => {
   return(
     <Fragment>
       <Header/>
-      <Contactsearch/>
-      <Fragment>
-        <СontactList1/>
-        <СontactList2/>
-      </Fragment>
+      <Сontactsearch/>
+      <СontactList/>
+      {/* <ContactItem/> */}
       <Footer/>
     </Fragment>
   )
